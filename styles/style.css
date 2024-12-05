@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
   align-items: center;
-  padding: 92px 24px 96px 24px;  
-  }
+  padding: 92px 24px 96px 24px;
+}
 
 .header_link_list {
   display: flex;
@@ -56,7 +56,7 @@
 
 /* Блок Title screen*/
 
-.cover {  
+.cover {
   position: relative;
   padding: 165px 50px 51px 50px;
   background-image: url(../images/cover.jpg);
@@ -65,7 +65,7 @@
   background-size: cover;
   }
 
-.cover_title { 
+.cover_title {
   position: relative;
   z-index: 2;
   display: flex;
@@ -100,8 +100,12 @@
   text-align: right;
 }
 
-.letter_spacing_extended { letter-spacing: 0.6em; }
-.no_letter_spacing { letter-spacing: initial; }
+.letter_spacing_extended {
+  letter-spacing: 0.6em;
+}
+.no_letter_spacing {
+  letter-spacing: initial;
+}
 
 .cover_description {
   position: relative;
@@ -190,10 +194,10 @@ margin: 179px 24px 181px 24px;
   justify-content: space-between;
   align-items: flex-start;
   height: 100%;
-  padding: 51px 40px 47px 40px;  /* нижний 47 изза min-height*/
+  padding: 51px 40px 47px 40px;
 }
 
-.card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
  }
 .card_type_book {
@@ -262,7 +266,7 @@ padding-left: 47px;
   background-position: center;
 }
 
-.about_column_text_area{
+.about_column_text_area {
   display: flex;
   flex-direction: column;
   grid-column: span 2;
