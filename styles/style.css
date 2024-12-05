@@ -7,9 +7,9 @@
 
 .header_link_list {
   display: flex;
-  justify-content: center;
-  gap: 31px; 
-  padding: 4px 34px 0 26px;
+  justify-content: start;
+  gap: 31.48px; 
+  padding: 5px 0 0 27px;
   color: black;
   font-weight: 400;
   font-size: 18px;
